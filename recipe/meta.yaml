@@ -1,5 +1,5 @@
 {% set name = "flake8-annotations" %}
-{% set version = "3.2.0" %}
+{% set version = "3.3.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/flake8_annotations-{{ version }}.tar.gz
-  sha256: 71b52ec85a4ec82a10edfad497fe2b390609c95b2ad7d61cc94704bc88a498a0
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/flake8_annotations-{{ version }}.tar.gz
+  sha256: 581fe79c1b1c9379dc7253380858471d5f88356a823df13d715a9971d78b9d3f
 
 build:
   noarch: python
